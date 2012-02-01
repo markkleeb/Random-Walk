@@ -99,9 +99,11 @@ if(!r && !d && !u && !l){
 
   for(int i = path.size()-1; i >= 0; i--){
 
-    PVector tpath = path.get(i);
-    tpath.x = 0;
-    tpath.y= 0;
+//    PVector tpath = path.get(i);
+//    tpath.x = 0;
+//    tpath.y= 0;
+ path.remove(i);
+  
 }
   
 loc.x = 0;
